@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+.gallery img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+body {
+    font-family: sans-serif;
+    background-color: #7eb5ec;
+    margin: 0;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT87ey3aG3mosaZ_P_DnM7_zguvFwq1Gjk7A&usqp=CAU);
+    background-size: cover;
+}
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
+    background-color: #3e3e44;
+    color: #fff;
+    border-bottom: 4px solid #fdb347;
+}
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    max-width: 1400px;
+    margin: 0 auto;
+    gap: 16px;   
+    background-image: image(src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?size=626&ext=jpg&ga=GA1.1.1412446893.1704931200&semt=sph)";
+}
+.gallery::after {
+    width: 350px;
+    content: "";
+}
+p {
+    text-transform: capitalize;
+    font-style: italic;
+}
