@@ -7,6 +7,10 @@
 body {
     background-color: #354d5c;  
 }
+header {
+    background-color:lightslategrey;
+    border: 2px solid lightslategrey;
+}
 .new-form {
     background-color: rgb(42, 42, 66);
     margin-left: auto; 
@@ -104,3 +108,14 @@ textarea {
 legend {
     padding-top: 10px;
 }
+footer {
+    background-color:lightslategrey;
+}
+address {
+    text-align:center;
+    padding-left: 10px;
+    font-weight: 600;
+  }
+  span {
+    color: white; 
+ }
